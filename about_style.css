@@ -27,6 +27,12 @@ html, body {
 
 .third_body{background: #1d2e42; height: 650px; width: 100%;}
 .third_body_centertext {margin:0; font-family: "klavika"; font-size: 35px; color: white;}
+ol li {display:inline; padding:7%;}
+/*
+.listtext1 {float:left; padding:0; margin:0; font-family: "klavika"; font-size: 15px; color: white; vertical-align:left;}
+.listtext2 {float:center; padding:0; margin:0; font-family: "klavika"; font-size: 15px; color: white; vertical-align:left;}
+.listtext3 {float:right; padding:0; margin:0; font-family: "klavika"; font-size: 15px; color: white; vertical-align:left;}*/
+
 
 .fourth_body {background: #f26822; height: 180px; width: 100%;}
 .fourth_body_centertext {margin:0; font-family: "klavika"; font-size: 50px; color: #1d2e42;}
@@ -51,6 +57,9 @@ html, body {
 .eighth_body_title_text { margin:0; font-family: "klavika"; font-size: 70px; color:#1d2e42; margin-left: 15%;}
 .eighth_body_text { margin:0; font-family: "klavika"; font-size: 45px; color:#1d2e42; margin-left: 15%;}
 
+.footer {position:relative; bottom:0; overflow:hidden; background-color:#1d2e42; padding:0; width:100%}
+.footerbody {float:left; padding-left:15px; color:white; font-family: "klavika"; font-size: auto;}
+.footercontact {float:right; padding-right:15px; color:white; font-family: "klavika"; font-size: auto;}
 @media print, screen and (max-width: 960px) {
   
   div.wrapper {
